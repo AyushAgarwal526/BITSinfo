@@ -48,13 +48,13 @@ Here is a quick demo of the app.
 ### Build the Docker Image
 
 ```bash
-  docker build -t BITSinfo .
+  docker build -t bitsinfo .
 ```
 
 ### Run the Docker Container
 
 ```bash
-  docker run -v "${PWD}/data:/app/data" -p 8000:8000 BITSinfo
+  docker run -v "${PWD}/data:/app/data" -p 8000:8000 bitsinfo
 ```
 
 ### Check the List of Files
