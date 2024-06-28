@@ -1,4 +1,5 @@
 
+
 # BITSinfo
 
 Answering BITS and BITSAT related queries using RAG LLM.
@@ -32,44 +33,44 @@ Here is a quick demo of the app.
 ### Clone the repository
 
 ```bash
-  git clone https://github.com/AyushAgarwal526/BITSinfo
+git clone https://github.com/AyushAgarwal526/BITSinfo
 ```
 
 ### Navigate to the project directory
 
 ```bash
-  cd BITSinfo
+cd BITSinfo
 ```
 
 ### Modify the `.env` file and put your Gemini API Key
 
 ```bash
-  GEMINI_API_KEY=*******
+GEMINI_API_KEY=*******
 ```
 
 ### Build the Docker Image
 
 ```bash
-  docker build -t bitsinfo .
+docker build -t bitsinfo .
 ```
 
 ### Run the Docker Container
 
 ```bash
-  docker run -v "${PWD}/data:/app/data" -p 8000:8000 bitsinfo
+docker run -v "${PWD}/data:/app/data" -p 8000:8000 bitsinfo
 ```
 
 ### Check the List of Files
 
 ```bash
-  curl -X 'POST'   'http://localhost:8000/'   -H 'accept: */*'   -H 'Content-Type: application/json'
+curl -X 'POST'   'http://localhost:8000/'   -H 'accept: */*'   -H 'Content-Type: application/json'
 ```
 This will return the list of files.
 
 ### Run the RAG service
 
 ```bash
-  curl -X 'POST' \
+curl -X 'POST' \
   'http://0.0.0.0:8000/' \
   -H 'accept: */*' \
   -H 'Content-Type: application/json' \
