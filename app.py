@@ -94,3 +94,4 @@ def run(config_file: str = "config.yaml"):
 
 if __name__ == "__main__":
     run()
+    
