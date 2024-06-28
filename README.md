@@ -63,7 +63,7 @@ docker run -v "${PWD}/data:/app/data" -p 8000:8000 bitsinfo
 ### Check the List of Files
 
 ```bash
-curl -X 'POST'   'http://localhost:8000/'   -H 'accept: */*'   -H 'Content-Type: application/json'
+curl -X 'POST'   'http://localhost:8000/v1/pw_list_documents'   -H 'accept: */*'   -H 'Content-Type: application/json'
 ```
 This will return the list of files.
 
@@ -71,7 +71,7 @@ This will return the list of files.
 
 ```bash
 curl -X 'POST' \
-  'http://0.0.0.0:8000/' \
+  'http://0.0.0.0:8000/v1/pw_ai_answer' \
   -H 'accept: */*' \
   -H 'Content-Type: application/json' \
   -d '{
