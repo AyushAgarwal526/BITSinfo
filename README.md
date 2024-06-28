@@ -16,7 +16,7 @@ Currently, the project uses a Google Drive Folder with all the necessary informa
 
 Here is a quick demo of the app.
 
-![](https://github.com/AyushAgarwal526/public/blob/main/BITSinfo_Demo.gif)
+![](https://github.com/AyushAgarwal526/BITSinfo/blob/main/demo/BITSinfo_Demo.gif)
 
 
 ## How to run the project
