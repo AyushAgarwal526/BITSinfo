@@ -22,7 +22,7 @@ Here is a quick demo of the app.
 
 ## How to run the project
 
-![](https://github.com/AyushAgarwal526/BITSinfo/blob/main/demo/BITSinfo_runthrough.mp4)
+[![Runthrough](https://github.com/AyushAgarwal526/BITSinfo/blob/main/demo/Thumbnail.png)](https://github.com/AyushAgarwal526/BITSinfo/blob/main/demo/BITSinfo_runthrough.mp4)
 
 ### Prerequisites
 - Make sure [Python](https://www.python.org/) is installed on your machine.
